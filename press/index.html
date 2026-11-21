@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scentful press kit</title>
+<meta name="description" content="Scentful 1.1: screenshots, facts and dates for App Store editorial.">
+<link rel="icon" href="../icon.png">
+<style>
+  :root { --bg:#f6f1ea; --fg:#2a1d14; --muted:#6b5a4c; --line:#e6dccf; --accent:#8a5523; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16110d; --fg:#f3ebe1; --muted:#b8a898; --line:#3a3028; --accent:#e0a95f; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 -apple-system, "SF Pro Text", system-ui, sans-serif; padding:32px 16px 64px; }
+  main { max-width:960px; margin:0 auto; }
+  header { display:flex; gap:20px; align-items:center; margin-bottom:28px; }
+  header img { width:96px; height:96px; border-radius:22px; }
+  h1 { font-family:"New York", Georgia, serif; font-size:30px; margin:0 0 4px; }
+  h2 { font-size:19px; margin:40px 0 10px; }
+  h3 { font-size:16px; margin:24px 0 8px; }
+  p, li { max-width:70ch; }
+  .muted { color:var(--muted); }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:6px 18px; margin:0; }
+  dt { color:var(--muted); }
+  dd { margin:0; }
+  .shots { display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:14px; }
+  .shots.wide { grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); }
+  figure { margin:0; }
+  figure img { width:100%; height:auto; border:1px solid var(--line); border-radius:12px; display:block; }
+  figcaption { font-size:13px; color:var(--muted); margin-top:6px; }
+  a { color:var(--accent); }
+  ul { padding-left:20px; }
+  footer { margin-top:48px; font-size:13px; color:var(--muted); }
+  @media (max-width:520px) { dl { grid-template-columns:1fr; } dt { margin-top:8px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="img/icon.png" alt="Scentful app icon">
+    <div>
+      <h1>Scentful</h1>
+      <p class="muted">Fragrance wardrobe for iPhone, iPad and Apple Watch · <a href="https://apps.apple.com/app/id6774532380">App Store</a> · updated 21 Nov 2026</p>
+    </div>
+  </header>
+
+  <h2>What is new in 1.1</h2>
+  <p>Scentful keeps the fragrances a person owns, wants and wears. Version 1.1 rebuilds the app around three things.</p>
+  <ul>
+    <li><a href="#wardrobe">The wardrobe.</a> Scan a bottle label to add it. Each bottle has a status (In rotation, For sale, Finished, Sold, Gifted), a fill level, a price and backups. The Scent Diary logs each wear with occasion, weather and a rating, and a Numbers page shows cost per wear, bottles not worn in 60 days and a shareable year card.</li>
+    <li><a href="#concierge">Today's Pick and the Concierge.</a> One bottle from the wardrobe each morning, chosen by time of day, season (by hemisphere) and recent wears. The Concierge answers a mood with five picks, written by the on-device Apple Intelligence model. Apple Watch shows Today's Pick and logs the wear with one tap, and a complication carries it on the watch face.</li>
+    <li><a href="#duo">iPhone Duo.</a> Unfolded, the catalog sits on one side of the fold and the bottle on the other. Half open on a table, the top half keeps the app and the bottom half shows Today's Pick and the diary entry.</li>
+  </ul>
+
+  <h2>Facts</h2>
+  <dl>
+    <dt>Version</dt><dd>1.1 (build 9), built with Xcode 27.1, in App Review since 21 Nov 2026</dd>
+    <dt>Platforms</dt><dd>iPhone, iPad, iPhone Duo, Apple Watch with complication</dd>
+    <dt>Languages</dt><dd>App: English (US, UK, Australia, Canada) and Spanish (Mexico). Store listing: 50 locales.</dd>
+    <dt>Catalog</dt><dd>525 fragrances from 93 houses, bundled with the app; identity data from Wikidata (CC0), accords and notes written for Scentful. Users can add any fragrance themselves.</dd>
+    <dt>Price</dt><dd>USD 0.99, paid once. No in-app purchases, no ads, no account.</dd>
+    <dt>Privacy</dt><dd>Everything stays on the device. The app makes no network calls. The Concierge and label reading run on device.</dd>
+    <dt>Accessibility</dt><dd>VoiceOver labels on accord bars and controls, Dynamic Type, Reduce Motion respected, light and dark mode, haptics on logging a wear.</dd>
+    <dt>Window</dt><dd>Wardrobe: 14 Dec 2026 to 10 Jan 2027. iPhone Duo: 12 Dec 2026 to 8 Jan 2027. Today's Pick and Apple Watch: 4 Jan to 5 Feb 2027.</dd>
+    <dt>Developer</dt><dd>Hemal Modi, one developer in Dubai</dd>
+  </dl>
+
+  <h2>Screens</h2>
+  <p class="muted">Simulator captures of the shipping build at device resolution. No marketing frames. The iPhone Duo screens are the app's own views rendered at the inner display size, because the simulator cannot fold.</p>
+
+  <h3 id="wardrobe">The wardrobe</h3>
+  <div class="shots">
+    <figure><img src="img/01-scan.png" alt="Scan a label sheet with three closest catalog matches"><figcaption>Scan a label: closest matches, or add it yourself</figcaption></figure>
+    <figure><img src="img/02-wardrobe.png" alt="Wardrobe tab with Today's Pick, alternates and status filter"><figcaption>Wardrobe with In rotation, For sale and Archive</figcaption></figure>
+    <figure><img src="img/03-diary.png" alt="Scent Diary timeline for November 2026"><figcaption>Scent Diary: occasion, weather, rating, note</figcaption></figure>
+    <figure><img src="img/04-numbers.png" alt="Numbers page with the 2026 in scent card and wears per month"><figcaption>2026 in scent, wears per month, most worn</figcaption></figure>
+    <figure><img src="img/11-ipad-numbers.png" alt="iPad Numbers page with cost per wear and bottles not worn in 60 days"><figcaption>iPad: cost per wear, not worn in 60+ days</figcaption></figure>
+  </div>
+
+  <h3 id="concierge">Today's Pick, the Concierge and Apple Watch</h3>
+  <div class="shots">
+    <figure><img src="img/06-todays-pick.png" alt="Catalog with the Today's Pick card"><figcaption>Today's Pick on the catalog</figcaption></figure>
+    <figure><img src="img/05-concierge.png" alt="Scent Concierge sheet labelled On-device, Private, with picks and accord bars"><figcaption>Concierge, curated on this device</figcaption></figure>
+    <figure><img src="img/07-watch-pick.png" alt="Apple Watch showing Today's Pick and a Wearing it button"><figcaption>Apple Watch: Today's Pick</figcaption></figure>
+    <figure><img src="img/08-watch-logged.png" alt="Apple Watch after logging, showing Logged for today"><figcaption>One tap logs the wear to the iPhone diary</figcaption></figure>
+  </div>
+
+  <h3 id="duo">iPhone Duo</h3>
+  <div class="shots wide">
+    <figure><img src="img/09-duo-book.png" alt="iPhone Duo unfolded: catalog list on the left pane, bottle detail on the right"><figcaption>Unfolded: catalog and bottle on either side of the fold</figcaption></figure>
+    <figure><img src="img/10-duo-tabletop.png" alt="iPhone Duo half open: app on the top half, Today's Pick and the diary entry on the bottom half"><figcaption>Half open on a table: Today's Pick and the diary entry below the fold</figcaption></figure>
+  </div>
+
+  <h2>Why now</h2>
+  <ul>
+    <li><a href="https://chaindrugreview.com/circana-fragrance-demand-expected-to-rise-this-holiday-season">Circana: Fragrance demand expected to rise this holiday season</a> <span class="muted">Chain Drug Review, 5 Dec 2025. About one in five US consumers bought fragrance as a holiday gift; December is about 60% of quarterly fragrance sales.</span></li>
+    <li><a href="https://petapixel.com/2026/10/21/iphone-duo-review-a-compromise-but-not-compromised/">iPhone Duo Review: A Compromise, But Not Compromised</a> <span class="muted">PetaPixel, 21 Oct 2026. Covers the book and half-folded poses.</span></li>
+    <li><a href="https://www.apple.com/newsroom/2025/09/apples-foundation-models-framework-unlocks-new-intelligent-app-experiences/">Apple's Foundation Models framework unlocks new app experiences powered by Apple Intelligence</a> <span class="muted">Apple Newsroom, 29 Sep 2025</span></li>
+  </ul>
+
+  <h2>Assets</h2>
+  <ul>
+    <li><a href="img/icon-1024.png">Icon, 1024 px PNG</a></li>
+    <li><a href="img/screens.zip">All screens, PNG, device resolution</a></li>
+  </ul>
+
+  <footer>Contact: <a href="mailto:hemalmodi3@gmail.com">hemalmodi3@gmail.com</a> · <a href="../">Support and privacy</a> · Scentful is independent and not affiliated with any fragrance website, retailer or perfume house.</footer>
+</main>
+</body>
+</html>
